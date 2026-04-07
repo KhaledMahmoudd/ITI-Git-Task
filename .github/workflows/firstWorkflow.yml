@@ -1,0 +1,10 @@
+name: CI Workflow
+on: workflow_dispatch
+jobs:
+  justPrint:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: echo Hello!
+        run: echo "Hello from FirstWorkflow!"
+      - name: End Workflow!
+        run: echo "End the Workflow!"
