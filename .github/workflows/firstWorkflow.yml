@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: echo Hello!
-        run: echo "Hello from FirstWorkflow!"
-      - name: End Workflow!
-        run: echo "End the Workflow!"
+        run: | 
+              echo "Hello from FirstWorkflow!"
+              echo "End the Workflow!"
+      #- name: End Workflow!
+      #  run: echo "End the Workflow!"
